@@ -1,0 +1,73 @@
+body {
+    background-color:#d6f5f5;
+    font-family: 'Hind';
+    font-size: 22px;
+
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Hind';
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.name{
+    width: 20%;
+}
+
+.nav{
+    width: 80%;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+#home-main-content-block {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0px;
+}
+
+.home-intro-text {
+    width: 50%;
+    margin: 50px;
+}
+
+#window {
+    width: 50%;
+}
+
+.photo-frame {
+    width: 500px;
+}
